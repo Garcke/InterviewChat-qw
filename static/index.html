@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语音识别与文本输出</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 引入 Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- 引入 Markdown 解析库 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 引入代码高亮库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/dark.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+</head>
+
+<body>
+<!-- 主容器 -->
+<div class="container">
+    <!-- 左侧面板：录音和聊天 -->
+    <div class="left-panel">
+        <!-- 聊天框 -->
+        <div id="chat" class="chat-container"></div>
+        <textarea id="inputBox" class="text-input" placeholder="输入您的问题（Enter发送，Shift+Enter换行）"
+                  rows="2"></textarea>
+        <!-- 操作按钮 -->
+        <div class="buttons">
+            <button id="startButton" title="快捷键A">开始录音</button>
+            <button id="stopButton" disabled title="快捷键A">停止录音</button>
+            <button id="clearButton" title="快捷键C">清除文本</button>
+        </div>
+    </div>
+
+    <!-- 右侧面板：文本输出 -->
+    <div class="right-panel">
+        <!-- 输出框 -->
+        <div class="output-container" id="outputText"></div>
+        <!-- 输出按钮 -->
+        <button id="outputButton" type="button" title="快捷键F">Ai-Chat</button>
+    </div>
+</div>
+
+<!-- 引入主 JavaScript 文件 -->
+<script type="module" src="scripts.js"></script>
+</body>
+
+</html>
