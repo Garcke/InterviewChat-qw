@@ -23,7 +23,7 @@ python .\server.py
 ```
 http://localhost:9000/static/
 ```
-网站示例图：
+示例图：
 ![](https://gitee.com/gracke/img/raw/master/SelfImg/202502190127160.png)
 - 快捷键 `A-开始/暂停录音` `C-清除文本` `D-ai问答`
 - 输入框 `Enter`键 输出文本 `Alt+Enter` 文本换行
