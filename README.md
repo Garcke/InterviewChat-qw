@@ -1,6 +1,6 @@
-# InterviewChat-qw
+# QW-InterviewAssitsant
 一个基于qwen-max-latest(LLM) + paraformer-realtime-v2(实时语音模型)的一个实时语音AI面试助手<br>
-An interview assistant based on qwen-max-latest(LLM)+ Paraex-Realtime-V2 (real-time voice model)
+An interview assistant based on qwen-max-latest(LLM)+ paraformer-Realtime-V2 (real-time voice model)
 
 # 运行教程（Run the tutorial）
 - 在`config.py`中配置API-KEY,API-KEY获取网址：https://bailian.console.aliyun.com/?apiKey=1#/api-key
