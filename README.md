@@ -1,5 +1,5 @@
 # InterviewChat-qw
-一个基于qwen-max-latest(LLM) + paraformer-realtime-v2(实时语音模型)的一个实时语音面试助手<br>
+一个基于qwen-max-latest(LLM) + paraformer-realtime-v2(实时语音模型)的一个实时语音AI面试助手<br>
 An interview assistant based on qwen-max-latest(LLM)+ Paraex-Realtime-V2 (real-time voice model)
 
 # 参考项目（Reference item）
