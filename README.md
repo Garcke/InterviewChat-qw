@@ -3,7 +3,7 @@
 An interview assistant based on qwen-max-latest(LLM)+ paraformer-Realtime-V2 (real-time voice model)
 
 # 运行教程（Run the tutorial）
-- 在`config.py`中配置API-KEY,API-KEY获取网址：https://bailian.console.aliyun.com/?apiKey=1#/api-key
+- 在`config.py`中配置API-KEY,获取网址：https://bailian.console.aliyun.com/?apiKey=1#/api-key
 - 安装`requirements.txt`的相关库
 ``` 
 pip install -r requirements.txt
@@ -29,7 +29,7 @@ http://localhost:9000/static/
 - 输入框 `Enter`键 输出文本 `Alt+Enter` 文本换行
 
 # 可配置项（configurable options）
-- 配置热词,可增加语音识别专有名称的准确性,本项目的`test`目录，也有写相关代码,可直接运行，但是要配置API-KEY参考网址：https://help.aliyun.com/zh/model-studio/developer-reference/custom-hot-words
+- 配置热词,可增加语音识别专有名词的准确性,本项目的`test`目录，也有写相关代码,可直接运行，但是要配置API-KEY参考网址：https://help.aliyun.com/zh/model-studio/developer-reference/custom-hot-words
 - 在`cache`目录,可以编辑`prompt.txt`写提示词
 - 可编辑快捷键在`scripts.js`文件可修改
 
