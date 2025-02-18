@@ -7,7 +7,7 @@ An interview assistant based on qwen-max-latest(LLM)+ Paraex-Realtime-V2 (real-t
 
 
 # 运行教程（Run the tutorial）
-- 在config.py中配置API-KEY,API-KEY获取网址：https://bailian.console.aliyun.com/?apiKey=1#/api-key
+- 在`config.py`中配置API-KEY,API-KEY获取网址：https://bailian.console.aliyun.com/?apiKey=1#/api-key
 - 安装requirements.txt的相关库
  ``` 
 pip install -r requirements.txt
@@ -27,7 +27,7 @@ python .\server.py
 ```
 http://localhost:9000/static/
 ```
-- 快捷键 A-开始/暂停录音 C-清除文本 D-AI问答
+- 快捷键 `A-开始/暂停录音` `C-清除文本` `D-ai问答`
 - 输入框 `Enter`键 输出文本 `Alt+Enter` 文本换行
 
 # 可配置热词
