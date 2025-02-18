@@ -27,8 +27,11 @@ python .\server.py
 ```
 http://localhost:9000/static/
 ```
+- 快捷键 A-开始/暂停录音 C-清除文本 D-AI问答
+- 输入框 `Enter`键 输出文本 `Alt+Enter` 文本换行
 
 # 可配置热词
 - 参考网址：https://help.aliyun.com/zh/model-studio/developer-reference/custom-hot-words
 - 本项目的test目录，也有写相关代码,可直接运行，但是要配置API-KEY
 - 在cache目录,可以编辑prompt.txt写提示词
+- 可编辑快捷键 在scripts.js文件可修改
